@@ -1,0 +1,52 @@
+[submodule "12/vendor/noviat-apps"]
+	path = 12/vendor/noviat-apps
+	url = https://github.com/Noviat/noviat-apps
+	branch = 12.0
+[submodule "12/vendor/l10n-belgium"]
+	path = 12/vendor/l10n-belgium
+	url = https://github.com/OCA/l10n-belgium
+	branch = 12.0
+[submodule "12/vendor/account-invoicing"]
+	path = 12/vendor/account-invoicing
+	url = https://github.com/OCA/account-invoicing
+	branch = 12.0
+[submodule "12/vendor/odooapps"]
+	path = 12/vendor/odooapps
+	url = https://github.com/odoomates/odooapps
+	branch = 12.0
+[submodule "12/vendor/edi"]
+	path = 12/vendor/edi
+	url = https://github.com/OCA/edi/
+	branch = 12.0
+[submodule "12/vendor/account-payment"]
+	path = 12/vendor/account-payment
+	url = https://github.com/OCA/account-payment
+	branch = 12.0
+[submodule "12/vendor/community-data-files"]
+	path = 12/vendor/community-data-files
+	url = https://github.com/OCA/community-data-files
+	branch = 12.0
+[submodule "12/vendor/partner-contact"]
+	path = 12/vendor/partner-contact
+	url = https://github.com/OCA/partner-contact
+	branch = 12.0
+[submodule "12/vendor/server-tools"]
+	path = 12/vendor/server-tools
+	url = https://github.com/OCA/server-tools
+	branch = 12.0
+[submodule "12/vendor/server-ux"]
+	path = 12/vendor/server-ux
+	url = https://github.com/OCA/server-ux
+	branch = 12.0
+[submodule "12/vendor/mis-builder"]
+	path = 12/vendor/mis-builder
+	url = https://github.com/OCA/mis-builder
+	branch = 12.0
+[submodule "12/vendor/reporting-engine"]
+	path = 12/vendor/reporting-engine
+	url = https://github.com/oca/reporting-engine
+	branch = 12.0
+[submodule "12/vendor/web"]
+	path = 12/vendor/web
+	url = https://github.com/OCA/web
+	branch = 12.0
