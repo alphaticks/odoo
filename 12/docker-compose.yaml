@@ -7,7 +7,7 @@ services:
     depends_on:
       - postgres
     ports:
-      - "8069:8069"
+      - "8072:8072"
     volumes:
       - odoodata:/var/lib/odoo
     configs:
@@ -25,9 +25,19 @@ services:
     volumes:
        - postgresdb:/var/lib/postgresql/data
 
+  proxy:
+    image: nginx
+    configs:
+       - source: nginx_config
+         target: /etc/nginx/nginx.conf
+    ports:
+       - "8069:8069"
+         
 configs:
    odoo_config:
       file: ./configs/odoo.conf
+   nginx_config:
+      file: ./configs/nginx.conf
 
 volumes:
   odoodata:
